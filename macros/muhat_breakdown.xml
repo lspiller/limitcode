@@ -1,0 +1,141 @@
+ <?xml version="1.0"?>
+<breakdown description="map of uncertainties" >
+
+<null description="null" breakdown="no" scan="no" >
+</null>
+
+    <stat description="stat" breakdown="no" scan="no" >
+        <systematic name="gamma_stat_hh_boost_tight_2012_bin_1" />
+        <systematic name="gamma_stat_hh_boost_tight_2012_bin_2" />
+        <systematic name="gamma_stat_hh_boost_tight_2012_bin_3" />
+        <systematic name="gamma_stat_hh_boost_tight_2012_bin_4" />
+        <systematic name="gamma_stat_hh_boost_tight_2012_bin_5" />
+		<systematic name="gamma_stat_hh_boost_tight_2012_bin_6" />
+		<systematic name="gamma_stat_hh_boost_tight_2012_bin_7" />
+		<systematic name="gamma_stat_hh_boost_tight_2012_bin_8" />
+		<systematic name="gamma_stat_hh_boost_tight_2012_bin_9" />
+        <systematic name="gamma_stat_hh_boost_tight_2012_bin_10" />
+		<systematic name="gamma_stat_hh_boost_tight_2012_bin_11" />
+		<systematic name="gamma_stat_hh_boost_tight_2012_bin_12" />
+		<systematic name="gamma_stat_hh_boost_tight_2012_bin_13" />
+        <systematic name="gamma_stat_hh_boost_tight_2012_bin_14" />
+        <systematic name="gamma_stat_hh_boost_tight_2012_bin_15" />
+		<systematic name="gamma_stat_hh_boost_tight_2012_bin_16" />
+        <systematic name="gamma_stat_hh_boost_tight_2012_bin_17" />
+        <systematic name="gamma_stat_hh_boost_loose_2012_bin_10" />
+		<systematic name="gamma_stat_hh_boost_loose_2012_bin_11" />
+        <systematic name="gamma_stat_hh_boost_loose_2012_bin_12" />
+		<systematic name="gamma_stat_hh_boost_loose_2012_bin_13" />
+        <systematic name="gamma_stat_hh_boost_loose_2012_bin_14" />
+		<systematic name="gamma_stat_hh_boost_loose_2012_bin_15" />
+        <systematic name="gamma_stat_hh_boost_loose_2012_bin_16" />
+        <systematic name="gamma_stat_hh_boost_loose_2012_bin_17" />
+		<systematic name="gamma_stat_hh_vbf_tight_lowdr_2012_bin_4" />
+		<systematic name="gamma_stat_hh_vbf_tight_lowdr_2012_bin_5" />
+        <systematic name="gamma_stat_hh_vbf_tight_lowdr_2012_bin_6" />
+        <systematic name="gamma_stat_hh_vbf_tight_highdr_2012_bin_4" />
+        <systematic name="gamma_stat_hh_vbf_tight_highdr_2012_bin_5" />
+		<systematic name="gamma_stat_hh_vbf_tight_highdr_2012_bin_6" />
+		<systematic name="gamma_stat_hh_vbf_loose_highdr_2012_bin_4" />
+		<systematic name="gamma_stat_hh_vbf_loose_highdr_2012_bin_5" />
+        <systematic name="gamma_stat_hh_boost_tight_2011_bin_14" />
+        <systematic name="gamma_stat_hh_boost_tight_2011_bin_15" />
+        <systematic name="gamma_stat_hh_boost_tight_2011_bin_16" />
+		<systematic name="gamma_stat_hh_boost_tight_2011_bin_17" />
+		<systematic name="gamma_stat_hh_vbf_lowdr_2011_bin_4" />
+        <systematic name="gamma_stat_hh_vbf_highdr_2011_bin_6" />
+    </stat>
+	
+	<theory description="theory" breakdown="no" scan="no" >
+        <systematic name="alpha_QCDscale_ggH2in" />
+		<systematic name="alpha_QCDscale_ggH1in" />
+		<systematic name="alpha_QCDscale_qqH" />
+        <systematic name="alpha_Gen_Qmass_ggH" />
+        <systematic name="alpha_ATLAS_BR_tautau" />
+        <systematic name="alpha_pdf_Higgs_gg" />
+		<systematic name="alpha_pdf_Higgs_qq" />
+        <systematic name="alpha_ATLAS_UE_gg" />
+		<systematic name="alpha_ATLAS_UE_qq" />
+        <systematic name="alpha_pdf_qq" />
+        <systematic name="alpha_pdf_gg" />
+    </theory>
+	
+	<taueff description="taueff" breakdown="no" scan="no" >
+        <systematic name="alpha_ATLAS_TAU_SF_2012" />
+		<systematic name="alpha_ATLAS_TAU_ID_2011" />
+		<systematic name="alpha_ATLAS_TAU_TRIGGER_2011" />
+		<systematic name="alpha_ATLAS_TAU_FR_2011" />
+		<systematic name="alpha_ATLAS_TAU_TRIGGERsyst_2012" />
+        <systematic name="alpha_ATLAS_TAU_IDsyst_2012" />
+    </taueff>
+	
+	<tes description="tes" breakdown="no" scan="no" >
+		<systematic name="alpha_ATLAS_TAU_TES_TRUE_SP_2012" />
+        <systematic name="alpha_ATLAS_TAU_TES_TRUE_MODELING_2012" />
+		<systematic name="alpha_ATLAS_TAU_TES_TRUE_INSITU_2012" />
+		<systematic name="alpha_ATLAS_TAU_TES_TRUE_2011" />
+        <systematic name="alpha_ATLAS_TAU_TES_FAKE_2012" />
+        <systematic name="alpha_ATLAS_TAU_TES_FAKE_2011" />
+    </tes>
+	
+	<jes description="jes" breakdown="no" scan="no" >
+		<systematic name="alpha_ATLAS_JES_Eta_Modelling" />
+		<systematic name="alpha_ATLAS_JES_FlavResp" />
+		<systematic name="alpha_ATLAS_JES_FlavComp_tautauhh_qq" />
+        <systematic name="alpha_ATLAS_JES_FlavComp_tautauhh_gg" />
+        <systematic name="alpha_ATLAS_JES_2012_Modelling1" />
+        <systematic name="alpha_ATLAS_JES_2012_Detector1" />
+        <systematic name="alpha_ATLAS_JES_2012_Eta_StatMethod" />
+    </jes>
+	
+	<datadriven description="datadriven" breakdown="no" scan="no" >
+		<systematic name="alpha_ATLAS_ANA_EMB_MFS_2012" />
+		<systematic name="alpha_ATLAS_ANA_EMB_MFS_2011" />
+        <systematic name="alpha_ATLAS_ANA_EMB_ISO_2012" />
+		<systematic name="alpha_ATLAS_ANA_EMB_ISO_2011" />
+		<systematic name="alpha_ATLAS_ANA_HH_QCD_mass_2012" />
+		<systematic name="alpha_ATLAS_ANA_HH_QCD_BinMigration_2012" />
+        <systematic name="alpha_ATLAS_ANA_HH_QCD_BinMigration_2011" />
+		<systematic name="ATLAS_norm_SF_HH_Z_2012" />
+		<systematic name="ATLAS_norm_SF_HH_Z_2011" />
+		<systematic name="ATLAS_norm_SF_HH_QCD_2012" />
+		<systematic name="ATLAS_norm_SF_HH_QCD_2011" />
+    </datadriven>
+	
+	<experimental description="experimental" breakdown="no" scan="no" >
+        <systematic name="alpha_ATLAS_ANA_EMB_MFS_2012" />
+		<systematic name="alpha_ATLAS_ANA_EMB_MFS_2011" />
+        <systematic name="alpha_ATLAS_ANA_EMB_ISO_2012" />
+		<systematic name="alpha_ATLAS_ANA_EMB_ISO_2011" />
+		<systematic name="alpha_ATLAS_ANA_HH_QCD_BinMigration_2012" />
+        <systematic name="alpha_ATLAS_ANA_HH_QCD_BinMigration_2011" />
+		<systematic name="alpha_ATLAS_ANA_HH_QCD_mass_2012" />
+		<systematic name="ATLAS_norm_SF_HH_Z_2012" />
+		<systematic name="ATLAS_norm_SF_HH_Z_2011" />
+		<systematic name="ATLAS_norm_SF_HH_QCD_2012" />
+		<systematic name="ATLAS_norm_SF_HH_QCD_2011" />
+		<systematic name="alpha_ATLAS_TAU_TES_TRUE_SP_2012" />
+        <systematic name="alpha_ATLAS_TAU_TES_TRUE_MODELING_2012" />
+		<systematic name="alpha_ATLAS_TAU_TES_TRUE_INSITU_2012" />
+		<systematic name="alpha_ATLAS_TAU_TES_TRUE_2011" />
+        <systematic name="alpha_ATLAS_TAU_TES_FAKE_2012" />
+        <systematic name="alpha_ATLAS_TAU_TES_FAKE_2011" />
+        <systematic name="alpha_ATLAS_TAU_SF_2012" />
+		<systematic name="alpha_ATLAS_TAU_ID_2011" />
+		<systematic name="alpha_ATLAS_TAU_TRIGGER_2011" />
+		<systematic name="alpha_ATLAS_TAU_FR_2011" />
+		<systematic name="alpha_ATLAS_TAU_TRIGGERsyst_2012" />
+		<systematic name="alpha_ATLAS_JES_Eta_Modelling" />
+        <systematic name="alpha_ATLAS_TAU_IDsyst_2012" />
+        <systematic name="alpha_ATLAS_JES_2012_Modelling1" />
+        <systematic name="alpha_ATLAS_LUMI_2012" />
+		<systematic name="alpha_ATLAS_LUMI_2011" />
+		<systematic name="alpha_ATLAS_JES_FlavResp" />
+		<systematic name="alpha_ATLAS_JES_FlavComp_tautauhh_qq" />
+        <systematic name="alpha_ATLAS_JES_2012_Detector1" />
+        <systematic name="alpha_ATLAS_JES_FlavComp_tautauhh_gg" />
+        <systematic name="alpha_ATLAS_JES_2012_Eta_StatMethod" />
+    </experimental>
+
+	
+</breakdown>

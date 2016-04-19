@@ -1,0 +1,109 @@
+<!DOCTYPE Channel  SYSTEM 'HistFactorySchema.dtd'>
+
+<Channel Name="hh_boost_tight_2011" InputFile="./data/mass_plots_rebinned_2011_MVAlike.root" HistoName="" >
+	<Data HistoName="massTrkBoosted_data" />
+	<StatErrorConfig RelErrorThreshold="0.05" ConstraintType="Poisson"/>
+	<Sample Name="ggH" NormalizeByTheory="True" HistoName="massTrkBoosted_ggH125" >
+		<StatError Activate="False" />
+		<OverallSys Name="ATLAS_JES_2011_Detector1" High="1.029" Low="0.981" />
+		<OverallSys Name="ATLAS_JES_2011_Modelling1" High="1.01" Low="0.988" />
+		<OverallSys Name="ATLAS_JES_Eta_Modelling" High="1.029" Low="0.977" />
+		<OverallSys Name="ATLAS_JES_FlavComp_tautauhh_gg" High="1.041" Low="0.982" />
+		<OverallSys Name="ATLAS_JES_FlavResp" High="1.035" Low="0.98" />
+		<OverallSys Name="ATLAS_JER" High="0.99" Low="1.01" />
+		<HistoSys Name="ATLAS_TAU_TES_TRUE_2011" HistoNameHigh="massTrkBoosted_ggH125_TESUp" HistoNameLow="massTrkBoosted_ggH125_TESDown" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_2011" High="1.01" Low="0.986" />
+		<OverallSys Name="ATLAS_TAU_ID_2011" High="1.08" Low="0.92"/>
+		<OverallSys Name="ATLAS_TAU_TRIGGER_2011" High="1.04" Low="0.96"/>
+		<OverallSys Name="ATLAS_BR_tautau" High="1.066" Low="0.935" />
+		<OverallSys Name="pdf_Higgs_gg" High="1.08" Low="0.92"/>
+		<OverallSys Name="Gen_Qmass_ggH" High="1.29" Low="0.71"/>
+		<OverallSys Name="QCDscale_ggH2in" High="0.95" Low="1.05"/>
+		<OverallSys Name="QCDscale_ggH1in" High="1.26" Low="0.79"/>
+			<NormFactor Name="SigXsecOverSM" Val="0." Low="0" High="30" Const="True" />
+		<NormFactor Name="mu_XS7_ggH" Val="1" Low="0" High="200" />
+		<OverallSys Name="ATLAS_LUMI_2011"  Low="0.982" High="1.018"/>
+		<NormFactor Name="mu_BR_tautau" Val="1" Low="0" High="200" />
+		</Sample>
+	<Sample Name="VBFH" NormalizeByTheory="True" HistoName="massTrkBoosted_VBFH125" >
+		<StatError Activate="False" />
+		<OverallSys Name="ATLAS_JES_2011_Detector1" High="1.03" Low="0.989" />
+		<OverallSys Name="ATLAS_JES_2011_Modelling1" High="1.013" Low="0.99" />
+		<OverallSys Name="ATLAS_JES_Eta_Modelling" High="1.01" Low="0.969" />
+		<OverallSys Name="ATLAS_JES_FlavComp_tautauhh_qq" High="1.042" Low="0.972" />
+		<OverallSys Name="ATLAS_JES_FlavResp" High="1.032" Low="0.982" />
+		<OverallSys Name="ATLAS_JER" High="1.02" Low="0.98" />
+		<HistoSys Name="ATLAS_TAU_TES_TRUE_2011" HistoNameHigh="massTrkBoosted_VBFH125_TESUp" HistoNameLow="massTrkBoosted_VBFH125_TESDown" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_2011" High="1" Low="0.994" />
+		<OverallSys Name="ATLAS_TAU_ID_2011" High="1.08" Low="0.92"/>
+		<OverallSys Name="ATLAS_TAU_TRIGGER_2011" High="1.04" Low="0.96"/>
+		<OverallSys Name="ATLAS_BR_tautau" High="1.066" Low="0.935" />
+		<OverallSys Name="pdf_Higgs_qq" High="1.03" Low="0.97"/>
+		<OverallSys Name="QCDscale_qqH" High="1.02" Low="0.98"/>
+			<NormFactor Name="SigXsecOverSM" Val="0." Low="0" High="30" Const="True" />
+		<NormFactor Name="mu_XS7_VBF" Val="1" Low="0" High="200" />
+		<OverallSys Name="ATLAS_LUMI_2011"  Low="0.982" High="1.018"/>
+		<NormFactor Name="mu_BR_tautau" Val="1" Low="0" High="200" />
+		</Sample>
+	<Sample Name="WH" NormalizeByTheory="True" HistoName="massTrkBoosted_WH125" >
+		<StatError Activate="False" />
+		<OverallSys Name="ATLAS_JES_2011_Detector1" High="1.056" Low="0.99" />
+		<OverallSys Name="ATLAS_JES_2011_Modelling1" High="1.015" Low="0.99" />
+		<OverallSys Name="ATLAS_JES_Eta_Modelling" High="1.023" Low="0.99" />
+		<OverallSys Name="ATLAS_JES_FlavComp_tautauhh_qq" High="1.071" Low="0.983" />
+		<OverallSys Name="ATLAS_JES_FlavResp" High="1.064" Low="0.983" />
+		<OverallSys Name="ATLAS_JER" High="0.98" Low="1.02" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_2011" High="0.99" Low="1.02" />
+		<OverallSys Name="ATLAS_TAU_ID_2011" High="1.08" Low="0.92"/>
+		<OverallSys Name="ATLAS_TAU_TRIGGER_2011" High="1.04" Low="0.96"/>
+		<OverallSys Name="ATLAS_BR_tautau" High="1.066" Low="0.935" />
+		<OverallSys Name="pdf_Higgs_qq" High="1.03" Low="0.97"/>
+		<OverallSys Name="QCDscale_VH" High="1.04" Low="0.96"/>
+			<NormFactor Name="SigXsecOverSM" Val="0." Low="0" High="30" Const="True" />
+		<NormFactor Name="mu_XS7_WH" Val="1" Low="0" High="200" />
+		<OverallSys Name="ATLAS_LUMI_2011"  Low="0.982" High="1.018"/>
+		<NormFactor Name="mu_BR_tautau" Val="1" Low="0" High="200" />
+		</Sample>
+	<Sample Name="ZH" NormalizeByTheory="True" HistoName="massTrkBoosted_ZH125" >
+		<StatError Activate="False" />
+		<OverallSys Name="ATLAS_JES_2011_Detector1" High="1.056" Low="0.99" />
+		<OverallSys Name="ATLAS_JES_2011_Modelling1" High="1.015" Low="0.99" />
+		<OverallSys Name="ATLAS_JES_Eta_Modelling" High="1.023" Low="0.99" />
+		<OverallSys Name="ATLAS_JES_FlavComp_tautauhh_qq" High="1.071" Low="0.983" />
+		<OverallSys Name="ATLAS_JES_FlavResp" High="1.064" Low="0.983" />
+		<OverallSys Name="ATLAS_JER" High="0.98" Low="1.02" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_2011" High="0.99" Low="1.02" />
+		<OverallSys Name="ATLAS_TAU_ID_2011" High="1.08" Low="0.92"/>
+		<OverallSys Name="ATLAS_TAU_TRIGGER_2011" High="1.04" Low="0.96"/>
+		<OverallSys Name="ATLAS_BR_tautau" High="1.066" Low="0.935" />
+		<OverallSys Name="pdf_Higgs_qq" High="1.03" Low="0.97"/>
+		<OverallSys Name="QCDscale_VH" High="1.04" Low="0.96"/>
+			<NormFactor Name="SigXsecOverSM" Val="0." Low="0" High="30" Const="True" />
+		<NormFactor Name="mu_XS7_ZH" Val="1" Low="0" High="200" />
+		<OverallSys Name="ATLAS_LUMI_2011"  Low="0.982" High="1.018"/>
+		<NormFactor Name="mu_BR_tautau" Val="1" Low="0" High="200" />
+		</Sample>
+	<Sample Name="EWK" NormalizeByTheory="True" HistoName="massTrkBoosted_EW" >
+		<StatError Activate="True" />
+		<OverallSys Name="ATLAS_TAU_TES_FAKE_2011" High="1.05" Low="0.95" />
+		<OverallSys Name="ATLAS_TAU_ID_2011" High="1.06" Low="0.94"/>
+		<OverallSys Name="ATLAS_TAU_TRIGGER_2011" High="1.032" Low="0.968"/>
+		<OverallSys Name="ATLAS_TAU_FR_2011" High="1.09" Low="0.91"/>
+		<OverallSys Name="ATLAS_LUMI_2011"  Low="0.982" High="1.018"/>
+		<OverallSys Name="QCDscale_V" High="1.01" Low="0.99"/>
+		<OverallSys Name="pdf_qq" High="1.04" Low="0.96"/>
+		</Sample>
+	<Sample Name="QCD" NormalizeByTheory="False" HistoName="massTrkBoosted_XX_QCD" >
+		<StatError Activate="True" />
+		<OverallSys Name="ATLAS_ANA_HH_QCD_BinMigration_2011" High="0.6" Low="1.4" />
+		<NormFactor Name="ATLAS_norm_SF_HH_QCD_2011" Val="1.0" High="50" Low="0" Const="True"/>
+		</Sample>
+	<Sample Name="Ztt" NormalizeByTheory="False" HistoName="massTrkBoosted_Zemb">
+		<StatError Activate="True" />
+		<HistoSys Name="ATLAS_TAU_TES_TRUE_2011" HistoNameHigh="massTrkBoosted_Zemb_TESUp" HistoNameLow="massTrkBoosted_Zemb_TESDown" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_2011" High="0.987" Low="1.012"/>
+		<OverallSys Name="ATLAS_ANA_EMB_MFS_2011" High="1" Low="0.983"/>
+		<OverallSys Name="ATLAS_ANA_EMB_ISO_2011" High="1.01" Low="0.99"/>
+		<NormFactor Name="ATLAS_norm_SF_HH_Z_2011" Val="1.0" High="50" Low="0" Const="True"/>
+		</Sample>
+</Channel>

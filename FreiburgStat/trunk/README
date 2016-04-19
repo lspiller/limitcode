@@ -1,0 +1,42 @@
+
+########################
+### Global structure ###
+########################
+
+  * macros/MakeNLLProfile.C : make NLL profile (ie scan one NP and for each value, 
+    perform a fit). The output is a root file containing a tree with one entry 
+    per fit (one branch per NP + minNLL + fit status).
+
+  * macros/drawPlot_Profile.py : script allowing to make relevant plots out of the 
+    produced tree. Able to overlay different tree (like sub-category fit).
+
+  * runProfiles.py : Launch set of lxplus batch jobs (one for each NP). Take only
+    a workspace rootfile as argument.
+
+
+##################################
+### Run the code interactively ###
+##################################
+
+.L macros/MakeNLLProfile.C+
+MakeNLLProfile("wsfile.root","outputdirname","NPfixedName", Npoints, NPmin, NPmax)
+.q
+
+
+################################
+### Launch lxplus batch jobs ###
+################################
+Compile macros/MakeNLLProfile.C in CINT first, then :
+python runProfiles.py --folder OuputFolderName --NPoints 40 wsfile.root
+==> will loop over all NPs in wsfile.root and will launch one job for each.
+    <OuputFolderName> will contain one root file per NP scan.
+
+
+#########################
+### Produce the plots ###
+#########################
+
+python macros/drawPlot_Profile.py -b --f dir1 --n 'legName1' --f2 dir2 --n2 'legName2'
+==> You can add up to 5 directories. Each of them is the ouput <OuputFolderName> used 
+    by runProfiles.py. This macro will loop over all root file in dir1/dir2/... and 
+    will produce pdf and root file containing the plots (NLL, NP[i] vs NPscanned, ...).

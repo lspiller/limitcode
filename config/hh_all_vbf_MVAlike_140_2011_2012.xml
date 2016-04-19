@@ -1,0 +1,12 @@
+<!DOCTYPE Combination  SYSTEM 'HistFactorySchema.dtd'>
+	<Combination OutputFilePrefix="./results/hh_all_vbf_MVAlike_140_2011_2012">
+		<Input>./config/hh_vbf_lowdr_140_2011.xml</Input>
+		<Input>./config/hh_vbf_highdr_140_2011.xml</Input>
+		<Input>./config/hh_vbf_tight_lowdr_140_2012.xml</Input>
+		<Input>./config/hh_vbf_tight_highdr_140_2012.xml</Input>
+		<Input>./config/hh_vbf_loose_highdr_140_2012.xml</Input>
+		<Measurement Name="AllSYS" Lumi="1." LumiRelErr="0.039" Mode="comb"   ExportOnly="True" >
+			<POI>SigXsecOverSM</POI>
+		<ParamSetting Const="True">Lumi mu_XS8_ggH mu_XS8_VBF mu_XS8_WH mu_XS8_ZH mu_XS7_ggH mu_XS7_VBF mu_XS7_WH mu_XS7_ZH mu_BR_tautau</ParamSetting>
+		</Measurement>
+	</Combination>

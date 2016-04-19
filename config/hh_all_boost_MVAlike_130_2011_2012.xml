@@ -1,0 +1,11 @@
+<!DOCTYPE Combination  SYSTEM 'HistFactorySchema.dtd'>
+	<Combination OutputFilePrefix="./results/hh_all_boost_MVAlike_130_2011_2012">
+		<Input>./config/hh_boost_tight_130_2011.xml</Input>
+		<Input>./config/hh_boost_loose_130_2011.xml</Input>
+		<Input>./config/hh_boost_tight_130_2012.xml</Input>
+		<Input>./config/hh_boost_loose_130_2012.xml</Input>
+		<Measurement Name="AllSYS" Lumi="1." LumiRelErr="0.018" Mode="comb"   ExportOnly="True" >
+			<POI>SigXsecOverSM</POI>
+		<ParamSetting Const="True">Lumi mu_XS8_ggH mu_XS8_VBF mu_XS8_WH mu_XS8_ZH mu_XS7_ggH mu_XS7_VBF mu_XS7_WH mu_XS7_ZH mu_BR_tautau</ParamSetting>
+		</Measurement>
+	</Combination>

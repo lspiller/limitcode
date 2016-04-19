@@ -1,0 +1,150 @@
+ <?xml version="1.0"?>
+<breakdown description="map of uncertainties" >
+
+    <statistical description="statistical uncertainties" breakdown="no" scan="no" >
+        <systematic name="ATLAS_norm_SF_MUSR_DY0j" />
+        <systematic name="ATLAS_norm_SF_MUSR_DY1j" />
+        <systematic name="ATLAS_norm_SF_MU_DY0j" />
+        <systematic name="ATLAS_norm_SF_MU_DY1j" />
+        <systematic name="ATLAS_norm_Top1j" />
+        <systematic name="ATLAS_norm_Top2j" />
+        <systematic name="ATLAS_norm_WW0j" />
+        <systematic name="ATLAS_norm_WW1j" />
+        <systematic name="PM_EFF_f_recoil_DY0j" />
+        <systematic name="PM_EFF_f_recoil_DY1j" />
+        <systematic name="PM_EFF_f_recoil_NDY_SR0j" />
+        <systematic name="PM_EFF_f_recoil_NDY_SR1j" />
+        <systematic name="PM_EFF_f_recoil_NDY_ZP0j" />
+        <systematic name="PM_EFF_f_recoil_NDY_ZP1j" />
+        <systematic name="alpha_ATLAS_TOP_SCALEF_STATS_0j_HWW" />
+        <systematic name="alpha_ATLAS_Z_LEPLEP_METCF_STAT_HWW" />
+        <systematic name="alpha_ATLAS_Z_TAUTAU_NORM_STAT_HWW" />
+        <systematic name="alpha_ATLAS_Z_TAUTAU_VBFCF_STAT_HWW" />
+    </statistical>
+
+    <experimental description="experimental uncertainties" breakdown="no" scan="no" >
+        <systematic name="alpha_ATLAS_BTag_BEFF" />
+        <systematic name="alpha_ATLAS_BTag_CEFF" />
+        <systematic name="alpha_ATLAS_BTag_LEFF" />
+        <systematic name="alpha_ATLAS_EL_EFF" />
+        <systematic name="alpha_ATLAS_EL_ESCALE" />
+        <systematic name="alpha_ATLAS_EL_RES" />
+        <systematic name="alpha_ATLAS_ISO" />
+        <systematic name="alpha_ATLAS_JER" />
+        <systematic name="alpha_ATLAS_JES_2012_Detector1" />
+        <systematic name="alpha_ATLAS_JES_2012_Eta_StatMethod" />
+        <systematic name="alpha_ATLAS_JES_2012_Modelling1" />
+        <systematic name="alpha_ATLAS_JES_2012_PilePt" />
+        <systematic name="alpha_ATLAS_JES_2012_PileRho_HWW" />
+        <systematic name="alpha_ATLAS_JES_BJET" />
+        <systematic name="alpha_ATLAS_JES_CLOSEBY" />
+        <systematic name="alpha_ATLAS_JES_Eta_Modelling" />
+        <systematic name="alpha_ATLAS_JES_FlavComp_HWW_WW" />
+        <systematic name="alpha_ATLAS_JES_FlavComp_HWW_other" />
+        <systematic name="alpha_ATLAS_JES_FlavComp_HWW_tt" />
+        <systematic name="alpha_ATLAS_JES_FlavResp" />
+        <systematic name="alpha_ATLAS_JES_HighPt" />
+        <systematic name="alpha_ATLAS_JES_MU" />
+        <systematic name="alpha_ATLAS_JES_NPV" />
+        <systematic name="alpha_ATLAS_MET_RESOSOFT" />
+        <systematic name="alpha_ATLAS_MET_SCALESOFT" />
+        <systematic name="alpha_ATLAS_MU_EFF" />
+        <systematic name="alpha_ATLAS_MU_ESCALE" />
+        <systematic name="alpha_ATLAS_MU_ID_RES" />
+        <systematic name="alpha_ATLAS_MU_MS_RES" />
+        <systematic name="alpha_ATLAS_MU_RESCALE_lvlv_2012" />
+        <systematic name="alpha_ATLAS_TRACKMET_RESOSOFT" />
+        <systematic name="alpha_ATLAS_TRACKMET_SCALESOFT" />
+        <systematic name="alpha_ATLAS_TRIGGER_HWW" />
+        <systematic name="alpha_PM_f_recoil_DY_SR0j_HWW" />
+        <systematic name="alpha_PM_f_recoil_DY_SR1j_HWW" />
+        <systematic name="alpha_PM_f_recoil_NDY_SR0j_HWW" />
+        <systematic name="alpha_PM_f_recoil_NDY_SR1j_HWW" />
+        <systematic name="alpha_PM_f_recoil_NDY_ZP0j_HWW" />
+        <systematic name="alpha_PM_f_recoil_NDY_ZP1j_HWW" />
+        <systematic name="alpha_PM_theta_SR0j" />
+        <systematic name="alpha_PM_theta_SR1j" />
+        <systematic name="alpha_FakeRate_EL_HWW" />
+        <systematic name="alpha_FakeRate_MU_HWW" />
+        <systematic name="alpha_ATLAS_TOP_SCALEF_NONTOP_0j_HWW" />
+        <systematic name="alpha_ATLAS_TOP_SCALEF_TOPO_CR_0j_HWW" />
+        <systematic name="alpha_ATLAS_TOP_SCALEF_TOPO_SR_0j_HWW" />
+        <systematic name="alpha_ATLAS_Z_TAUTAU_NORM_SYS_HWW" />
+    </experimental>
+
+    <jesjer description="JES/JER" breakdown="no" scan="no" >
+        <systematic name="alpha_ATLAS_JER" />
+        <systematic name="alpha_ATLAS_JES_2012_Detector1" />
+        <systematic name="alpha_ATLAS_JES_2012_Eta_StatMethod" />
+        <systematic name="alpha_ATLAS_JES_2012_Modelling1" />
+        <systematic name="alpha_ATLAS_JES_2012_PilePt" />
+        <systematic name="alpha_ATLAS_JES_2012_PileRho_HWW" />
+        <systematic name="alpha_ATLAS_JES_BJET" />
+        <systematic name="alpha_ATLAS_JES_CLOSEBY" />
+        <systematic name="alpha_ATLAS_JES_Eta_Modelling" />
+        <systematic name="alpha_ATLAS_JES_FlavComp_HWW_WW" />
+        <systematic name="alpha_ATLAS_JES_FlavComp_HWW_other" />
+        <systematic name="alpha_ATLAS_JES_FlavComp_HWW_tt" />
+        <systematic name="alpha_ATLAS_JES_FlavResp" />
+        <systematic name="alpha_ATLAS_JES_HighPt" />
+        <systematic name="alpha_ATLAS_JES_MU" />
+        <systematic name="alpha_ATLAS_JES_NPV" />
+    </jesjer>
+
+    <btag description="btagging" breakdown="no" scan="no" >
+        <systematic name="alpha_ATLAS_BTag_BEFF" />
+        <systematic name="alpha_ATLAS_BTag_CEFF" />
+        <systematic name="alpha_ATLAS_BTag_LEFF" />
+    </btag>
+
+    <fakes description="FakeRate" breakdown="no" scan="no" >
+        <systematic name="alpha_FakeRate_EL_HWW" />
+        <systematic name="alpha_FakeRate_MU_HWW" />
+    </fakes>
+
+    <met description="MET/TrackMET" breakdown="no" scan="no" >
+        <systematic name="alpha_ATLAS_MET_RESOSOFT" />
+        <systematic name="alpha_ATLAS_MET_SCALESOFT" />
+        <systematic name="alpha_ATLAS_TRACKMET_RESOSOFT" />
+        <systematic name="alpha_ATLAS_TRACKMET_SCALESOFT" />
+    </met>
+
+    <theoretical description="theoretical uncertainties" breakdown="no" scan="no" >
+        <systematic name="alpha_ATLAS_BR_VV" />
+        <systematic name="alpha_ATLAS_Higgs_UEPS" />
+        <systematic name="alpha_ATLAS_EW_MODEL_VV_HWW" />
+        <systematic name="alpha_ATLAS_EW_MODEL_Z_HWW" />
+        <systematic name="alpha_QCDscale_V" />
+        <systematic name="alpha_QCDscale_VV" />
+        <systematic name="alpha_QCDscale_VV2in" />
+        <systematic name="alpha_QCDscale_VV_ACCEPT" />
+        <systematic name="alpha_QCDscale_Wg_ACCEPT0j_HWW" />
+        <systematic name="alpha_QCDscale_Wg_ACCEPT1j_HWW" />
+        <systematic name="alpha_QCDscale_Wgs_ACCEPT0j_HWW" />
+        <systematic name="alpha_QCDscale_Wgs_ACCEPT1j_HWW" />
+        <systematic name="alpha_QCDscale_ggH" />
+        <systematic name="alpha_QCDscale_ggH1in" />
+        <systematic name="alpha_QCDscale_ggH2in" />
+        <systematic name="alpha_QCDscale_ggH3in" />
+        <systematic name="alpha_QCDscale_ggH_ACCEPT" />
+        <systematic name="alpha_QCDscale_qqH" />
+        <systematic name="alpha_QCDscale_qqH_ACCEPT" />
+        <systematic name="alpha_pdf_Higgs_gg" />
+        <systematic name="alpha_pdf_Higgs_qq" />
+        <systematic name="alpha_pdf_Higgs_qq_ACCEPT" />
+        <systematic name="pdf_gg" />
+        <systematic name="pdf_qq" />
+        <systematic name="pdf_gg_ACCEPT" />
+        <systematic name="pdf_qq_ACCEPT" />
+        <systematic name="alpha_pdf_Wg_ACCEPT_HWW" />
+        <systematic name="alpha_pdf_Wgs_ACCEPT_HWW" />
+        <systematic name="alpha_ATLAS_TOP_SCALEF_THEO_0j_HWW" />
+        <systematic name="alpha_ATLAS_TOP_THEO_1j_HWW" />
+        <systematic name="alpha_ATLAS_TOP_THEO_2j_HWW" />
+        <systematic name="alpha_ATLAS_UE" />
+        <systematic name="alpha_ATLAS_WW_MODEL_HWW" />
+        <systematic name="alpha_ATLAS_WW_MTSHAPE" />
+        <systematic name="alpha_ATLAS_WW_UEPS_HWW" />
+    </theoretical>
+
+</breakdown>

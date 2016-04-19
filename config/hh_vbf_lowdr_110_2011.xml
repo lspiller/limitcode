@@ -1,0 +1,69 @@
+<!DOCTYPE Channel  SYSTEM 'HistFactorySchema.dtd'>
+
+<Channel Name="hh_vbf_lowdr_2011" InputFile="./data/mass_plots_rebinned_2011_MVAlike.root" HistoName="" >
+	<Data HistoName="massTrkVBF_data" />
+	<StatErrorConfig RelErrorThreshold="0.05" ConstraintType="Poisson"/>
+	<Sample Name="ggH" NormalizeByTheory="True" HistoName="massTrkVBF_ggH110" >
+		<StatError Activate="False" />
+		<OverallSys Name="ATLAS_JES_2011_Detector1" High="1.02" Low="0.966" />
+		<OverallSys Name="ATLAS_JES_2011_Modelling1" High="1.02" Low="0.966" />
+		<OverallSys Name="ATLAS_JES_Eta_Modelling" High="1.086" Low="0.932" />
+		<OverallSys Name="ATLAS_JES_FlavComp_tautauhh_gg" High="1.086" Low="0.932" />
+		<OverallSys Name="ATLAS_JES_FlavResp" High="1.046" Low="0.932" />
+		<OverallSys Name="ATLAS_JER" High="0.967" Low="1.033" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_2011" High="0.971" Low="1.041" />
+		<OverallSys Name="ATLAS_TAU_ID_2011" High="1.08" Low="0.92"/>
+		<OverallSys Name="ATLAS_TAU_TRIGGER_2011" High="1.04" Low="0.96"/>
+		<OverallSys Name="ATLAS_UE_gg" High="1.1" Low="0.9"/>
+		<OverallSys Name="ATLAS_BR_tautau" High="1.069" Low="0.933" />
+		<OverallSys Name="pdf_Higgs_gg" High="1.08" Low="0.92"/>
+		<OverallSys Name="QCDscale_ggH2in" High="2.5" Low="0.4"/>
+		<OverallSys Name="Gen_Qmass_ggH" High="1.29" Low="0.71"/>
+			<NormFactor Name="SigXsecOverSM" Val="0." Low="0" High="30" Const="True" />
+		<NormFactor Name="mu_XS7_ggH" Val="1" Low="0" High="200" />
+		<OverallSys Name="ATLAS_LUMI_2011"  Low="0.982" High="1.018"/>
+		<NormFactor Name="mu_BR_tautau" Val="1" Low="0" High="200" />
+		</Sample>
+	<Sample Name="VBFH" NormalizeByTheory="True" HistoName="massTrkVBF_VBFH110" >
+		<StatError Activate="False" />
+		<OverallSys Name="ATLAS_JES_2011_Detector1" High="1.011" Low="0.988" />
+		<OverallSys Name="ATLAS_JES_2011_Modelling1" High="1.01" Low="0.988" />
+		<OverallSys Name="ATLAS_JES_Eta_Modelling" High="1.043" Low="0.943" />
+		<OverallSys Name="ATLAS_JES_FlavComp_tautauhh_qq" High="1.012" Low="0.974" />
+		<OverallSys Name="ATLAS_JES_FlavResp" High="1.01" Low="0.98" />
+		<OverallSys Name="ATLAS_JER" High="0.961" Low="1.039" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_2011" High="1.01" Low="0.99" />
+		<OverallSys Name="ATLAS_TAU_ID_2011" High="1.08" Low="0.92"/>
+		<OverallSys Name="ATLAS_TAU_TRIGGER_2011" High="1.04" Low="0.96"/>
+		<OverallSys Name="ATLAS_UE_qq" High="1.03" Low="0.97"/>
+		<OverallSys Name="ATLAS_BR_tautau" High="1.069" Low="0.933" />
+		<OverallSys Name="pdf_Higgs_qq" High="1.03" Low="0.97"/>
+		<OverallSys Name="QCDscale_qqH" High="1.02" Low="0.98"/>
+			<NormFactor Name="SigXsecOverSM" Val="0." Low="0" High="30" Const="True" />
+		<NormFactor Name="mu_XS7_VBF" Val="1" Low="0" High="200" />
+		<OverallSys Name="ATLAS_LUMI_2011"  Low="0.982" High="1.018"/>
+		<NormFactor Name="mu_BR_tautau" Val="1" Low="0" High="200" />
+		</Sample>
+	<Sample Name="EWK" NormalizeByTheory="True" HistoName="massTrkVBF_EW" >
+		<StatError Activate="True" />
+		<OverallSys Name="ATLAS_TAU_ID_2011" High="1.051" Low="0.949"/>
+		<OverallSys Name="ATLAS_TAU_TRIGGER_2011" High="1.025" Low="0.975"/>
+		<OverallSys Name="ATLAS_TAU_FR_2011" High="1.094" Low="0.917"/>
+		<OverallSys Name="ATLAS_TAU_TES_FAKE_2011" High="1" Low="0.9" />
+		<OverallSys Name="ATLAS_LUMI_2011"  Low="0.982" High="1.018"/>
+		<OverallSys Name="QCDscale_ttbar" High="1.06" Low="0.94"/>
+		<OverallSys Name="pdf_gg" High="1.08" Low="0.92"/>
+		</Sample>
+	<Sample Name="QCD" NormalizeByTheory="False" HistoName="massTrkVBF_XX_QCD" >
+		<StatError Activate="True" />
+		<OverallSys Name="ATLAS_ANA_HH_QCD_BinMigration_2011" High="0.5" Low="1.5"/>
+		<NormFactor Name="ATLAS_norm_SF_HH_QCD_2011" Val="1.0" High="50" Low="0" Const="True"/>
+		</Sample>
+	<Sample Name="Ztt" NormalizeByTheory="False" HistoName="massTrkVBF_Zemb">
+		<StatError Activate="True" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_2011" High="1" Low="1.047"/>
+		<OverallSys Name="ATLAS_ANA_EMB_MFS_2011" High="1" Low="0.952"/>
+		<OverallSys Name="ATLAS_ANA_EMB_ISO_2011" High="0.85" Low="1.15"/>
+		<NormFactor Name="ATLAS_norm_SF_HH_Z_2011" Val="1.0" High="50" Low="0" Const="True"/>
+		</Sample>
+</Channel>

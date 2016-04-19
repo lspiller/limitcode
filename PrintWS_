@@ -1,0 +1,48 @@
+\documentclass[11pt,a4paper]{article} 
+\usepackage[a4paper,hmargin={0.01cm,0.01cm},vmargin={0.01cm,0.01cm}]{geometry}
+ \usepackage[applemac]{inputenc} 
+ \usepackage{indentfirst}
+ \usepackage{graphicx}
+ \usepackage[english]{babel}
+ \usepackage{pdfpages}
+ \usepackage{subfigure}
+ \usepackage{mathrsfs}
+ \usepackage{lscape}
+\begin{document} 
+\begin{landscape}
+\begin{table}
+\begin{center}
+\scalebox{0.9\pagewidth}{
+\begin{tabular}{r|ccccc|ccccc|ccccc|ccccc|ccccc}
+\hline\hline
+ &  \multicolumn{5}{c|}{channel hh 15 cuts boosted tight 125 ditau mmc mlm m} & \multicolumn{5}{c|}{channel hh 15 cuts vbf highdr tight 125 ditau mmc mlm m} & \multicolumn{5}{c|}{channel hh 15 cuts vbf highdr loose 125 ditau mmc mlm m} & \multicolumn{5}{c|}{channel hh 15 cuts boosted loose 125 ditau mmc mlm m} & \multicolumn{5}{c}{channel hh 15 cuts vbf lowdr 125 ditau mmc mlm m} \\ 
+NP  & Fakes & Others & Signal VBF 125 & Signal gg 125 & Ztautau & Fakes & Others & Signal VBF 125 & Signal gg 125 & Ztautau & Fakes & Others & Signal VBF 125 & Signal gg 125 & Ztautau & Fakes & Others & Signal VBF 125 & Signal gg 125 & Ztautau & Fakes & Others & Signal VBF 125 & Signal gg 125 & Ztautau \\ 
+ LUMI 2015 &   & Y & Y & Y &   &   & Y & Y & Y &   &   & Y & Y & Y &   &   & Y & Y & Y &   &   & Y & Y & Y &   \\ 
+pdf qq &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   &   \\ 
+QCDscale V &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   &   \\ 
+2015 Isolation &   &   & Y & Y & Y &   &   & Y & Y & Y &   &   & Y & Y & Y &   &   & Y & Y & Y &   &   & Y & Y & Y \\ 
+QCDscale qqH &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   \\ 
+UE qq &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   \\ 
+pdf Higgs qq ACCEPT &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   \\ 
+BR tautau &   &   & Y & Y &   &   &   & Y & Y &   &   &   & Y & Y &   &   &   & Y & Y &   &   &   & Y & Y &   \\ 
+pdf Higgs qq &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   \\ 
+NLO EW Higgs &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   \\ 
+QCDscale ggH1in &   &   &   & Y &   &   &   &   &   &   &   &   &   &   &   &   &   &   & Y &   &   &   &   &   &   \\ 
+QCDscale ggH2in &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   \\ 
+UE gg &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   \\ 
+pdf Higgs gg ACCEPT &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   \\ 
+pdf Higgs gg &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   &   &   &   & Y &   \\ 
+2015 QCD & YS &   &   &   &   & YS &   &   &   &   & YS &   &   &   &   & YS &   &   &   &   & YS &   &   &   &   \\ 
+TAU ID 2015 &   & YS & YS & YS & YS &   & YS & YS & YS & YS &   & YS & YS & YS & YS &   & YS & YS & YS & YS &   & YS & YS & YS & YS \\ 
+TRIGGER 2015 &   & YS & YS & YS & YS &   & YS & YS & YS & YS &   & YS & YS & YS & YS &   & YS & YS & YS & YS &   & YS & YS & YS & YS \\ 
+TAUS TRUEHADTAU SME TES DETECTOR 2015 &   & YS & YS & YS & YS &   & YS & YS & YS & YS &   & YS & YS & YS & YS &   & YS & YS & YS & YS &   & YS & YS & YS & YS \\ 
+TAUS TRUEHADTAU SME TES MODEL 2015 &   & YS & YS & YS & YS &   & YS & YS & YS & YS &   & YS & YS & YS & YS &   & YS & YS & YS & YS &   & YS & YS & YS & YS \\ 
+TAUS TRUEHADTAU SME TES INSITU 2015 &   & YS & YS & YS & YS &   & YS & YS & YS & YS &   & YS & YS & YS & YS &   & YS & YS & YS & YS &   & YS & YS & YS & YS \\ 
+TRIGGER STATDATA 2015 &   & YS & YS & YS & YS &   & YS & YS & YS & YS &   & YS & YS & YS & YS &   & YS & YS & YS & YS &   & YS & YS & YS & YS \\ 
+TRIGGER STATMC 2015 &   & YS & YS & YS & YS &   & YS & YS & YS & YS &   & YS & YS & YS & YS &   & YS & YS & YS & YS &   & YS & YS & YS & YS \\ 
+\hline\hline
+\end{tabular}} 
+\end{center} 
+\end{table}
+\end{landscape}
+\end{document} 

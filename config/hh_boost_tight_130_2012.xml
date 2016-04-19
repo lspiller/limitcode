@@ -1,0 +1,166 @@
+<!DOCTYPE Channel  SYSTEM 'HistFactorySchema.dtd'>
+
+<Channel Name="hh_boost_tight_2012" InputFile="./data/mass_plots_rebinned_2012_MVAlike.root" HistoName="" >
+	<Data HistoName="massTrkBoosted_data" />
+	<StatErrorConfig RelErrorThreshold="0.05" ConstraintType="Poisson"/>
+	<Sample Name="ggH" NormalizeByTheory="True" HistoName="massTrkBoosted_ggH130" >
+		<StatError Activate="False" />
+		<HistoSys Name="ATLAS_JES_2012_Detector1" HistoNameHigh="massTrkBoosted_ggH130_Detector1Up" HistoNameLow="massTrkBoosted_ggH130_Detector1Down" />
+		<OverallSys Name="ATLAS_JES_2012_Detector1" High="1.018" Low="0.984" />
+		<HistoSys Name="ATLAS_JES_2012_Modelling1" HistoNameHigh="massTrkBoosted_ggH130_Modelling1Up" HistoNameLow="massTrkBoosted_ggH130_Modelling1Down" />
+		<OverallSys Name="ATLAS_JES_2012_Modelling1" High="1.022" Low="0.97" />
+		<HistoSys Name="ATLAS_JES_Eta_Modelling" HistoNameHigh="massTrkBoosted_ggH130_EtaModellingUp" HistoNameLow="massTrkBoosted_ggH130_EtaModellingDown" />
+		<OverallSys Name="ATLAS_JES_Eta_Modelling" High="1.031" Low="0.966" />
+		<OverallSys Name="ATLAS_JES_2012_Eta_StatMethod" High="1.01" Low="0.999" />
+		<OverallSys Name="ATLAS_JES_2012_PileRho_tautauhh_gg" High="1.01" Low="1" />
+		<OverallSys Name="ATLAS_JES_FlavComp_tautauhh_gg" High="1.038" Low="0.956" />
+		<HistoSys Name="ATLAS_JES_FlavResp" HistoNameHigh="massTrkBoosted_ggH130_FlavorResponseUp" HistoNameLow="massTrkBoosted_ggH130_FlavorResponseDown" />
+		<OverallSys Name="ATLAS_JES_FlavResp" High="1.023" Low="0.973" />
+		<OverallSys Name="ATLAS_JER" High="1" Low="1" />
+		<HistoSys Name="ATLAS_TAU_TES_TRUE_INSITU_2012" HistoNameHigh="massTrkBoosted_ggH130_TESUpTrueInSitu" HistoNameLow="massTrkBoosted_ggH130_TESDownTrueInSitu" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_INSITU_2012" High="1.01" Low="0.99" />
+		<HistoSys Name="ATLAS_TAU_TES_TRUE_MODELING_2012" HistoNameHigh="massTrkBoosted_ggH130_TESUpTrueModeling" HistoNameLow="massTrkBoosted_ggH130_TESDownTrueModeling" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_MODELING_2012" High="0.99" Low="1.01" />
+		<HistoSys Name="ATLAS_TAU_TES_TRUE_SP_2012" HistoNameHigh="massTrkBoosted_ggH130_TESUpTrueSingleparticle" HistoNameLow="massTrkBoosted_ggH130_TESDownTrueSingleparticle" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_SP_2012" High="0.978" Low="1.013" />
+		<HistoSys Name="ATLAS_TAU_SF_2012" HistoNameHigh="massTrkBoosted_ggH130_SFUp" HistoNameLow="massTrkBoosted_ggH130_SFDown" />
+		<OverallSys Name="ATLAS_TAU_SF_2012" High="1.05" Low="0.95"/>
+		<OverallSys Name="ATLAS_TAU_TRIGGERsyst_2012" High="1.01" Low="0.99"/>
+		<OverallSys Name="ATLAS_TAU_IDsyst_2012" High="1.055" Low="0.945"/>
+		<OverallSys Name="ATLAS_BR_tautau" High="1.066" Low="0.935" />
+		<OverallSys Name="pdf_Higgs_gg" High="1.08" Low="0.92"/>
+		<OverallSys Name="QCDscale_ggH2in" High="0.95" Low="1.05"/>
+		<OverallSys Name="QCDscale_ggH1in" High="1.26" Low="0.79"/>
+		<OverallSys Name="Gen_Qmass_ggH" High="1.29" Low="0.71"/>
+			<NormFactor Name="SigXsecOverSM" Val="0." Low="0" High="200" />
+		<NormFactor Name="mu_XS8_ggH" Val="1" Low="0" High="200" />
+		<OverallSys Name="ATLAS_LUMI_2012"  Low="0.972" High="1.028"/>
+		<NormFactor Name="mu_BR_tautau" Val="1" Low="0" High="200" />
+		</Sample>
+	<Sample Name="VBFH" NormalizeByTheory="True" HistoName="massTrkBoosted_VBFH130" >
+		<StatError Activate="False" />
+		<HistoSys Name="ATLAS_JES_2012_Detector1" HistoNameHigh="massTrkBoosted_VBFH130_Detector1Up" HistoNameLow="massTrkBoosted_VBFH130_Detector1Down" />
+		<OverallSys Name="ATLAS_JES_2012_Detector1" High="1.018" Low="0.982" />
+		<HistoSys Name="ATLAS_JES_2012_Modelling1" HistoNameHigh="massTrkBoosted_VBFH130_Modelling1Up" HistoNameLow="massTrkBoosted_VBFH130_Modelling1Down" />
+		<OverallSys Name="ATLAS_JES_2012_Modelling1" High="1.016" Low="0.984" />
+		<HistoSys Name="ATLAS_JES_Eta_Modelling" HistoNameHigh="massTrkBoosted_VBFH130_EtaModellingUp" HistoNameLow="massTrkBoosted_VBFH130_EtaModellingDown" />
+		<OverallSys Name="ATLAS_JES_Eta_Modelling" High="1.023" Low="0.976" />
+		<OverallSys Name="ATLAS_JES_2012_Eta_StatMethod" High="1.01" Low="0.999" />
+		<OverallSys Name="ATLAS_JES_2012_PileRho_tautauhh_qq" High="1.01" Low="1" />
+		<OverallSys Name="ATLAS_JES_FlavComp_tautauhh_qq" High="1.029" Low="0.97" />
+		<HistoSys Name="ATLAS_JES_FlavResp" HistoNameHigh="massTrkBoosted_VBFH130_FlavorResponseUp" HistoNameLow="massTrkBoosted_VBFH130_FlavorResponseDown" />
+		<OverallSys Name="ATLAS_JES_FlavResp" High="1.02" Low="0.977" />
+		<OverallSys Name="ATLAS_JER" High="1" Low="1" />
+		<HistoSys Name="ATLAS_TAU_TES_TRUE_INSITU_2012" HistoNameHigh="massTrkBoosted_VBFH130_TESUpTrueInSitu" HistoNameLow="massTrkBoosted_VBFH130_TESDownTrueInSitu" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_INSITU_2012" High="1" Low="1" />
+		<HistoSys Name="ATLAS_TAU_TES_TRUE_MODELING_2012" HistoNameHigh="massTrkBoosted_VBFH130_TESUpTrueModeling" HistoNameLow="massTrkBoosted_VBFH130_TESDownTrueModeling" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_MODELING_2012" High="0.99" Low="1.01" />
+		<HistoSys Name="ATLAS_TAU_TES_TRUE_SP_2012" HistoNameHigh="massTrkBoosted_VBFH130_TESUpTrueSingleparticle" HistoNameLow="massTrkBoosted_VBFH130_TESDownTrueSingleparticle" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_SP_2012" High="0.98" Low="1.017" />
+		<HistoSys Name="ATLAS_TAU_SF_2012" HistoNameHigh="massTrkBoosted_VBFH130_SFUp" HistoNameLow="massTrkBoosted_VBFH130_SFDown" />
+		<OverallSys Name="ATLAS_TAU_SF_2012" High="1.05" Low="0.95"/>
+		<OverallSys Name="ATLAS_TAU_TRIGGERsyst_2012" High="1.01" Low="0.99"/>
+		<OverallSys Name="ATLAS_TAU_IDsyst_2012" High="1.055" Low="0.945"/>
+		<OverallSys Name="ATLAS_BR_tautau" High="1.066" Low="0.935" />
+		<OverallSys Name="pdf_Higgs_qq" High="1.03" Low="0.97"/>
+		<OverallSys Name="QCDscale_qqH" High="1.02" Low="0.98"/>
+			<NormFactor Name="SigXsecOverSM" Val="0." Low="0" High="200" />
+		<NormFactor Name="mu_XS8_VBF" Val="1" Low="0" High="200" />
+		<OverallSys Name="ATLAS_LUMI_2012"  Low="0.972" High="1.028"/>
+		<NormFactor Name="mu_BR_tautau" Val="1" Low="0" High="200" />
+		</Sample>
+	<Sample Name="WH" NormalizeByTheory="True" HistoName="massTrkBoosted_WH130" >
+		<StatError Activate="False" />
+		<HistoSys Name="ATLAS_JES_2012_Detector1" HistoNameHigh="massTrkBoosted_WH130_Detector1Up" HistoNameLow="massTrkBoosted_WH130_Detector1Down" />
+		<OverallSys Name="ATLAS_JES_2012_Detector1" High="1.012" Low="0.985" />
+		<HistoSys Name="ATLAS_JES_2012_Modelling1" HistoNameHigh="massTrkBoosted_WH130_Modelling1Up" HistoNameLow="massTrkBoosted_WH130_Modelling1Down" />
+		<OverallSys Name="ATLAS_JES_2012_Modelling1" High="1.024" Low="0.966" />
+		<HistoSys Name="ATLAS_JES_Eta_Modelling" HistoNameHigh="massTrkBoosted_WH130_EtaModellingUp" HistoNameLow="massTrkBoosted_WH130_EtaModellingDown" />
+		<OverallSys Name="ATLAS_JES_Eta_Modelling" High="1.018" Low="0.973" />
+		<OverallSys Name="ATLAS_JES_2012_Eta_StatMethod" High="1.01" Low="0.999" />
+		<OverallSys Name="ATLAS_JES_2012_PileRho_tautauhh_qq" High="1.01" Low="1" />
+		<OverallSys Name="ATLAS_JES_FlavComp_tautauhh_qq" High="1.034" Low="0.956" />
+		<HistoSys Name="ATLAS_JES_FlavResp" HistoNameHigh="massTrkBoosted_WH130_FlavorResponseUp" HistoNameLow="massTrkBoosted_WH130_FlavorResponseDown" />
+		<OverallSys Name="ATLAS_JES_FlavResp" High="1.02" Low="0.973" />
+		<OverallSys Name="ATLAS_JER" High="1.01" Low="0.99" />
+		<HistoSys Name="ATLAS_TAU_TES_TRUE_INSITU_2012" HistoNameHigh="massTrkBoosted_WH130_TESUpTrueInSitu" HistoNameLow="massTrkBoosted_WH130_TESDownTrueInSitu" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_INSITU_2012" High="1.01" Low="0.99" />
+		<HistoSys Name="ATLAS_TAU_TES_TRUE_MODELING_2012" HistoNameHigh="massTrkBoosted_WH130_TESUpTrueModeling" HistoNameLow="massTrkBoosted_WH130_TESDownTrueModeling" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_MODELING_2012" High="1" Low="1" />
+		<HistoSys Name="ATLAS_TAU_TES_TRUE_SP_2012" HistoNameHigh="massTrkBoosted_WH130_TESUpTrueSingleparticle" HistoNameLow="massTrkBoosted_WH130_TESDownTrueSingleparticle" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_SP_2012" High="0.983" Low="1.018" />
+		<HistoSys Name="ATLAS_TAU_SF_2012" HistoNameHigh="massTrkBoosted_WH130_SFUp" HistoNameLow="massTrkBoosted_WH130_SFDown" />
+		<OverallSys Name="ATLAS_TAU_SF_2012" High="1.05" Low="0.95"/>
+		<OverallSys Name="ATLAS_TAU_TRIGGERsyst_2012" High="1.01" Low="0.99"/>
+		<OverallSys Name="ATLAS_TAU_IDsyst_2012" High="1.055" Low="0.945"/>
+		<OverallSys Name="ATLAS_BR_tautau" High="1.066" Low="0.935" />
+		<OverallSys Name="pdf_Higgs_qq" High="1.03" Low="0.97"/>
+		<OverallSys Name="QCDscale_VH" High="1.04" Low="0.96"/>
+			<NormFactor Name="SigXsecOverSM" Val="0." Low="0" High="200" />
+		<NormFactor Name="mu_XS8_WH" Val="1" Low="0" High="200" />
+		<OverallSys Name="ATLAS_LUMI_2012"  Low="0.972" High="1.028"/>
+		<NormFactor Name="mu_BR_tautau" Val="1" Low="0" High="200" />
+		</Sample>
+	<Sample Name="ZH" NormalizeByTheory="True" HistoName="massTrkBoosted_ZH130" >
+		<StatError Activate="False" />
+		<HistoSys Name="ATLAS_JES_2012_Detector1" HistoNameHigh="massTrkBoosted_ZH130_Detector1Up" HistoNameLow="massTrkBoosted_ZH130_Detector1Down" />
+		<OverallSys Name="ATLAS_JES_2012_Detector1" High="1.012" Low="0.985" />
+		<HistoSys Name="ATLAS_JES_2012_Modelling1" HistoNameHigh="massTrkBoosted_ZH130_Modelling1Up" HistoNameLow="massTrkBoosted_ZH130_Modelling1Down" />
+		<OverallSys Name="ATLAS_JES_2012_Modelling1" High="1.024" Low="0.966" />
+		<HistoSys Name="ATLAS_JES_Eta_Modelling" HistoNameHigh="massTrkBoosted_ZH130_EtaModellingUp" HistoNameLow="massTrkBoosted_ZH130_EtaModellingDown" />
+		<OverallSys Name="ATLAS_JES_Eta_Modelling" High="1.018" Low="0.973" />
+		<OverallSys Name="ATLAS_JES_2012_Eta_StatMethod" High="1.01" Low="0.999" />
+		<OverallSys Name="ATLAS_JES_2012_PileRho_tautauhh_qq" High="1.01" Low="1" />
+		<OverallSys Name="ATLAS_JES_FlavComp_tautauhh_qq" High="1.034" Low="0.956" />
+		<HistoSys Name="ATLAS_JES_FlavResp" HistoNameHigh="massTrkBoosted_ZH130_FlavorResponseUp" HistoNameLow="massTrkBoosted_ZH130_FlavorResponseDown" />
+		<OverallSys Name="ATLAS_JES_FlavResp" High="1.02" Low="0.973" />
+		<OverallSys Name="ATLAS_JER" High="1.01" Low="0.99" />
+		<HistoSys Name="ATLAS_TAU_TES_TRUE_INSITU_2012" HistoNameHigh="massTrkBoosted_ZH130_TESUpTrueInSitu" HistoNameLow="massTrkBoosted_ZH130_TESDownTrueInSitu" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_INSITU_2012" High="1.01" Low="0.99" />
+		<HistoSys Name="ATLAS_TAU_TES_TRUE_MODELING_2012" HistoNameHigh="massTrkBoosted_ZH130_TESUpTrueModeling" HistoNameLow="massTrkBoosted_ZH130_TESDownTrueModeling" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_MODELING_2012" High="1" Low="1" />
+		<HistoSys Name="ATLAS_TAU_TES_TRUE_SP_2012" HistoNameHigh="massTrkBoosted_ZH130_TESUpTrueSingleparticle" HistoNameLow="massTrkBoosted_ZH130_TESDownTrueSingleparticle" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_SP_2012" High="0.983" Low="1.018" />
+		<HistoSys Name="ATLAS_TAU_SF_2012" HistoNameHigh="massTrkBoosted_ZH130_SFUp" HistoNameLow="massTrkBoosted_ZH130_SFDown" />
+		<OverallSys Name="ATLAS_TAU_SF_2012" High="1.05" Low="0.95"/>
+		<OverallSys Name="ATLAS_TAU_TRIGGERsyst_2012" High="1.01" Low="0.99"/>
+		<OverallSys Name="ATLAS_TAU_IDsyst_2012" High="1.055" Low="0.945"/>
+		<OverallSys Name="ATLAS_BR_tautau" High="1.066" Low="0.935" />
+		<OverallSys Name="pdf_Higgs_qq" High="1.03" Low="0.97"/>
+		<OverallSys Name="QCDscale_VH" High="1.04" Low="0.96"/>
+			<NormFactor Name="SigXsecOverSM" Val="0." Low="0" High="200" />
+		<NormFactor Name="mu_XS8_ZH" Val="1" Low="0" High="200" />
+		<OverallSys Name="ATLAS_LUMI_2012"  Low="0.972" High="1.028"/>
+		<NormFactor Name="mu_BR_tautau" Val="1" Low="0" High="200" />
+		</Sample>
+	<Sample Name="EWK" NormalizeByTheory="True" HistoName="massTrkBoosted_EW" >
+		<StatError Activate="True" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_INSITU_2012" High="1" Low="1" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_MODELING_2012" High="0.99" Low="1.01" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_SP_2012" High="1" Low="1" />
+		<OverallSys Name="ATLAS_TAU_TES_FAKE_2012" High="1.076" Low="1" />
+		<OverallSys Name="ATLAS_TAU_IDsyst_2012" High="1.035" Low="0.965"/>
+		<OverallSys Name="ATLAS_LUMI_2012"  Low="0.972" High="1.028"/>
+		<OverallSys Name="QCDscale_V" High="1.01" Low="0.99"/>
+		<OverallSys Name="pdf_qq" High="1.04" Low="0.96"/>
+		</Sample>
+	<Sample Name="QCD" NormalizeByTheory="False" HistoName="massTrkBoosted_XX_QCD" >
+		<StatError Activate="True" />
+		<OverallSys Name="ATLAS_ANA_HH_QCD_BinMigration_2012" High="0.6" Low="1.4" />
+		<NormFactor Name="ATLAS_norm_SF_HH_QCD_2012" Val="1.0" High="50" Low="0" Const="True" />
+		</Sample>
+	<Sample Name="Ztt" NormalizeByTheory="False" HistoName="massTrkBoosted_Zemb">
+		<StatError Activate="True" />
+		<HistoSys Name="ATLAS_TAU_TES_TRUE_INSITU_2012" HistoNameHigh="massTrkBoosted_Zemb_TESUpTrueInSitu" HistoNameLow="massTrkBoosted_Zemb_TESDownTrueInSitu" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_INSITU_2012" High="1" Low="1.01"/>
+		<HistoSys Name="ATLAS_TAU_TES_TRUE_MODELING_2012" HistoNameHigh="massTrkBoosted_Zemb_TESUpTrueModeling" HistoNameLow="massTrkBoosted_Zemb_TESDownTrueModeling" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_MODELING_2012" High="1" Low="1.01"/>
+		<HistoSys Name="ATLAS_TAU_TES_TRUE_SP_2012" HistoNameHigh="massTrkBoosted_Zemb_TESUpTrueSingleparticle" HistoNameLow="massTrkBoosted_Zemb_TESDownTrueSingleparticle" />
+		<OverallSys Name="ATLAS_TAU_TES_TRUE_SP_2012" High="1" Low="1"/>
+		<HistoSys Name="ATLAS_ANA_EMB_MFS_2012" HistoNameHigh="massTrkBoosted_Zemb_mfsup" HistoNameLow="massTrkBoosted_Zemb_mfsdn" />
+		<OverallSys Name="ATLAS_ANA_EMB_MFS_2012" High="1" Low="1.015"/>
+		<HistoSys Name="ATLAS_ANA_EMB_ISO_2012" HistoNameLow="massTrkBoosted_Zemb_noIso" HistoNameHigh="massTrkBoosted_Zemb_tightIso" />
+		<OverallSys Name="ATLAS_ANA_EMB_ISO_2012" Low="1" High="1.016"/>
+		<NormFactor Name="ATLAS_norm_SF_HH_Z_2012" Val="1.0" High="50" Low="0" Const="True"/>
+		</Sample>
+</Channel>
